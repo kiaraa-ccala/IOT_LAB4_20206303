@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categoriesFragment">
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.lab4_20206303.ui.CategoriesFragment"
+        android:label="@string/categories">
+        <action
+            android:id="@+id/action_categories_to_meals"
+            app:destination="@id/mealsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mealsFragment"
+        android:name="com.example.lab4_20206303.ui.MealsFragment"
+        android:label="@string/meals">
+        <argument
+            android:name="category"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_meals_to_recipe"
+            app:destination="@id/recipeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="com.example.lab4_20206303.ui.RecipeFragment"
+        android:label="@string/recipe">
+        <argument
+            android:name="mealId"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+</navigation>

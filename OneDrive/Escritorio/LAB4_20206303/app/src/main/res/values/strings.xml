@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LAB4_20206303</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="elaborado_por">Elaborado por: Kiara Ccala/20206303</string>
+    <string name="food_image">Imagen de comida</string>
+    <string name="recipe_image">Imagen de receta</string>
+    <string name="category_image">Imagen de categoria</string>
+    <string name="meal_image">Imagen de plato</string>
+
+    <string name="no_connection_title">Sin conexion</string>
+    <string name="no_connection_message">No se detecto conexion a Internet. No es posible ingresar a la aplicacion.</string>
+    <string name="settings">Configuracion</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="categories">Categorias</string>
+    <string name="meals">Platos</string>
+    <string name="recipe">Receta</string>
+    <string name="search">Buscar</string>
+    <string name="ingredient_hint">Ingrediente principal (ej. chicken_breast)</string>
+    <string name="meal_id_hint">ID del plato (ej. 52959)</string>
+    <string name="category_label">Categoria:</string>
+    <string name="no_categories">No se encontraron categorias</string>
+    <string name="no_meals">No se encontraron platos</string>
+    <string name="random_recipe">Receta sorpresa</string>
+    <string name="recipe_category_label">Categoria: %1$s</string>
+    <string name="recipe_area_label">Origen: %1$s</string>
+    <string name="recipe_ingredients_title">Ingredientes (min 3):</string>
+</resources>
