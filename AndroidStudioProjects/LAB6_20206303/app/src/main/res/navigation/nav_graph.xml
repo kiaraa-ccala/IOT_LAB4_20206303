@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pronosticosFragment">
+
+    <fragment
+        android:id="@+id/pronosticosFragment"
+        android:name="com.example.lab6_20206303.ui.PronosticosFragment"
+        android:label="Mis Pronósticos"
+        tools:layout="@layout/fragment_pronosticos" />
+
+    <fragment
+        android:id="@+id/estadisticasFragment"
+        android:name="com.example.lab6_20206303.ui.EstadisticasFragment"
+        android:label="Estadísticas"
+        tools:layout="@layout/fragment_estadisticas" />
+
+</navigation>

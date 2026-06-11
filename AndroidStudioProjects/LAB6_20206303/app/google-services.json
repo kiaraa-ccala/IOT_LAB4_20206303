@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "333420459691",
+    "firebase_url": "https://mundialseguimiento-default-rtdb.firebaseio.com",
+    "project_id": "mundialseguimiento",
+    "storage_bucket": "mundialseguimiento.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333420459691:android:de0641f34489d2478569ee",
+        "android_client_info": {
+          "package_name": "com.example.lab6_20206303"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333420459691-gp4j7ee0s7ji8c36ckdb396iaj2dfnq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab6_20206303",
+            "certificate_hash": "2551f873616353d8c09c370ec5a82551e7b402f5"
+          }
+        },
+        {
+          "client_id": "333420459691-8gvbtm8lbue5aoton9g2amvmq4kbn77i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBceJYOeQs7Zs_MkQCQ8VyN_2VNANgB2rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333420459691-8gvbtm8lbue5aoton9g2amvmq4kbn77i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
